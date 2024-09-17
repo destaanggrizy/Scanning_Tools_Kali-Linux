@@ -75,18 +75,21 @@ Angry IP Scanner adalah alat sederhana dan cepat untuk scanning jaringan.
 
 - Masuk pada menu setting:
 
-![7](https://github.com/user-attachments/assets/13037100-c62f-4b9e-b92d-def340992794)
-
 - Pilih Combined UDP+TCD pada ping method
 
+![7](https://github.com/user-attachments/assets/13037100-c62f-4b9e-b92d-def340992794)
+
+- Pada menu Port, ubah Port Selection menjadi range 1-1000
 
 ![8](https://github.com/user-attachments/assets/f8954281-069c-41e4-bbbc-214057410bdb)
 
-Pada menu Port, ubah Port Selection menjadi range 1-1000
+- Dan pada menu Display ubah Display menjadi Alive Hosts, Kemudian klik
 
 ![9](https://github.com/user-attachments/assets/cd6b17f3-aada-4fa3-89c6-29556934ce12)
 
-Dan pada menu Display ubah Display menjadi Alive Hosts, Kemudian klik
+- Masukan IP Range yang ingin dicari kemudian klik Start
+
+- Maka akan tampil hasil scan dari range ip yang sudah kita masukan tadi
 
 ![10](https://github.com/user-attachments/assets/787d1f94-a69f-4eed-8b01-d840059c8043)
 
