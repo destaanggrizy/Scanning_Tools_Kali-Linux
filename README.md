@@ -1,4 +1,4 @@
-# Scanning_Tools_Kali-Lin
+# Scanning_Tools_Kali-Linux
 
 ## Installasi dan Penggunaan Nmap, Zenmap, dan Angry IP Scanner di Kali Linux
 - Nmap
