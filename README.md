@@ -54,77 +54,42 @@ sudo zenmap
 ### 3. Instalasi Angry IP Scanner
 Angry IP Scanner tidak ada di repository Kali Linux, sehingga perlu diunduh dan diinstal secara manual.
 
-Download Angry IP Scanner dari angryip.org:
+- Download Angry IP Scanner dari angryip.org:
 ```bash
 wget https://github.com/angryip/ipscan/releases/download/3.7.6/ipscan_3.7.6_amd64.deb
 ```
-Install package:
+![4](https://github.com/user-attachments/assets/c74f6849-d385-4a7f-a8b5-7f45e6407dc0)
+
+- Install package:
 ``` bash
 sudo dpkg -i ipscan_3.7.6_amd64.deb
 ```
-Jika ada masalah dengan dependensi, jalankan:
-
-bash
-Salin kode
-sudo apt --fix-broken install
-Jalankan Angry IP Scanner:
-
-bash
-Salin kode
-ipscan
-Penggunaan
-Penggunaan Nmap
-Nmap digunakan untuk berbagai jenis scanning jaringan dan port. Berikut beberapa contoh penggunaan dasar:
-
-Melakukan Scanning terhadap sebuah host:
-
-bash
-Salin kode
-nmap 192.168.1.1
-Scanning seluruh subnet:
-
-bash
-Salin kode
-nmap 192.168.1.0/24
-Scanning dengan deteksi OS:
-
-bash
-Salin kode
-sudo nmap -O 192.168.1.1
-Scanning port tertentu:
-
-bash
-Salin kode
-nmap -p 22,80,443 192.168.1.1
-Penggunaan Zenmap
-Zenmap memberikan antarmuka grafis untuk menjalankan berbagai perintah Nmap dengan mudah.
-
-Jalankan Zenmap dengan:
-
-bash
-Salin kode
-sudo zenmap
-Pilih profil scanning seperti Quick Scan atau Intense Scan di dropdown menu.
-
-Masukkan target IP atau subnet, lalu klik tombol "Scan".
-
-Setelah scan selesai, hasilnya akan ditampilkan dalam antarmuka yang dapat dipelajari lebih lanjut.
+![5](https://github.com/user-attachments/assets/3759b1de-26c8-472b-a33b-2d113a907890)
 
 Penggunaan Angry IP Scanner
 Angry IP Scanner adalah alat sederhana dan cepat untuk scanning jaringan.
 
-Jalankan Angry IP Scanner dengan:
+- Jalankan Angry IP Scanner:
 
-bash
-Salin kode
-ipscan
-Di antarmuka GUI:
+![6](https://github.com/user-attachments/assets/2bde14fe-e493-4ddb-9ee9-1fb883180f7b)
 
-Masukkan rentang IP yang ingin di-scan.
-Klik tombol Start untuk memulai scanning.
-Hasil scanning akan ditampilkan di layar dengan detail seperti IP Address, hostname, dan status port.
+- Masuk pada menu setting:
 
-Anda juga dapat mengekspor hasil scanning ke file CSV, TXT, atau XML melalui menu File > Save As.
+![7](https://github.com/user-attachments/assets/13037100-c62f-4b9e-b92d-def340992794)
+
+- Pilih Combined UDP+TCD pada ping method
+
+
+![8](https://github.com/user-attachments/assets/f8954281-069c-41e4-bbbc-214057410bdb)
+
+Pada menu Port, ubah Port Selection menjadi range 1-1000
+
+![9](https://github.com/user-attachments/assets/cd6b17f3-aada-4fa3-89c6-29556934ce12)
+
+Dan pada menu Display ubah Display menjadi Alive Hosts, Kemudian klik
+
+![10](https://github.com/user-attachments/assets/787d1f94-a69f-4eed-8b01-d840059c8043)
+
 
 Kesimpulan
 Ketiga tools ini memiliki fungsionalitas dan fitur yang berbeda untuk melakukan scanning jaringan. Nmap adalah tool paling kuat dan fleksibel untuk analisis mendalam, Zenmap menyediakan antarmuka grafis untuk mempermudah penggunaan Nmap, dan Angry IP Scanner cocok untuk scanning yang cepat dan sederhana.
